@@ -4,6 +4,7 @@ import Pages.HomePage;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
+import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
 
@@ -47,10 +48,10 @@ public class BaseTests {
 //        System.out.println(pages.size());
 
 
-//    @AfterClass
-//        public void tearDown(){
-//        driver.quit();
-//    }
+  @AfterClass
+        public void tearDown(){
+        driver.quit();
+    }
 
 
 }

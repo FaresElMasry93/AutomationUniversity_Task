@@ -37,15 +37,18 @@ public class HoverPage {
         }
 
         public String getTitle(){
+
             return caption.findElement(header).getText();
         }
 
         public String getLink(){
+
             return caption.findElement(link).getAttribute("href");
         }
 
         public String getLinkText(){
-             return caption.findElement(link).getText();
+
+            return caption.findElement(link).getText();
         }
 
 

@@ -13,6 +13,7 @@ public class UploadFile {
         this.driver=driver;
     }
     public void clickUpload(){
+
         driver.findElement(uploadButton).click();
     }
     public void getFilePath (String absoluteFilePath){

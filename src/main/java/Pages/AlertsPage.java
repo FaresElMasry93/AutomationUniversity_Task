@@ -17,12 +17,15 @@ public class AlertsPage {
 
     }
     public void acceptAlert(){
+
         driver.switchTo().alert().accept();
     }
     public String getResult(){
+
         return driver.findElement(results).getText();
     }
     public void triggerConfirm(){
+
         driver.findElement(TriggerConfirmButton).click();
     }
     public void acceptConfirmAlert(){

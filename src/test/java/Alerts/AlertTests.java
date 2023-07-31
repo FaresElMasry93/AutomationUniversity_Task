@@ -4,7 +4,7 @@ import base.BaseTests;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-public class AlertTests extends BaseTests {
+public class  AlertTests extends BaseTests {
 
         @Test
     public void testAcceptAlert(){
